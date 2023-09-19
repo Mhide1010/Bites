@@ -1,0 +1,596 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box 0;
+}
+
+body{
+    background-color: rgb(241, 225, 229);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 20px 40px;
+}
+.si{
+    list-style: none;
+}
+.cu{
+    border: 0px solid transparent;
+    width: fit-content;
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+
+.ab{
+    display: flex;
+    padding-top: 10px;
+}
+.ab li{
+    margin-left: 20px;
+    padding-left: 30px;
+    list-style: none;
+}
+
+.sh{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.sh li{
+    padding: 20px;
+}
+
+.sh2{
+    border: 1px solid goldenrod;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.t1{
+    border: 0px solid transparent;
+    background-color: goldenrod;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 9px;
+    width: fit-content;
+    font-size: 20px;
+    
+}
+
+/* sectionn one */
+
+.s1{
+    font-size: 85px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boy1{
+    box-shadow: 10px 10px 20px blueviolet;
+    max-width: fit-content;
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin-bottom: 32px;
+}
+
+.boy2{
+    box-shadow: 10px 10px 20px blueviolet;
+    max-width: fit-content;
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin-bottom: 32px;
+}
+
+.boy3{
+    box-shadow: 10px 10px 20px blueviolet;
+    max-width: fit-content;
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin-bottom: 32px;
+}
+
+.boy4{
+    box-shadow: 10px 10px 20px blueviolet;
+    max-width: fit-content;
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin-bottom: 32px;
+}
+
+.boy5{
+    box-shadow: 10px 10px 20px blueviolet;
+    max-width: fit-content;
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin-bottom: 32px;
+}
+
+.dishes{
+    position: absolute;
+    right: 110px;
+    top: 290px;
+    list-style: none;
+
+}
+
+.plate{
+    position: absolute;
+    margin-right: 15px;
+    right: 10px;
+    top: 150px;
+}
+
+.ve1{
+    position: absolute;
+    right: 200px;
+    top: 100px;  
+}
+
+.pa1{
+    margin-left: 50px;
+}
+
+.expo{
+    display: flex;
+    padding: 10px;
+}
+
+.expo1{
+    border: 0px solid transparent;
+    border-radius: 50px;
+    background-color: goldenrod;
+    color: brown;
+    margin: 15px;
+    padding: 10px 25px 10px;
+    width: fit-content;
+}
+
+.expo2{
+    border: 2px solid goldenrod;
+    border-radius: 50px;
+    color: brown;
+    padding: 10px 25px 10px;
+    margin: 15px;
+    background-color: transparent;
+}
+
+
+/* end of sectionn 1 */
+
+/* sectionn 2 */
+
+.ball1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.ball4{
+    display: flex;
+    /* position: absolute; */
+    
+}
+
+.ball3{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ball2{
+    background-color: goldenrod;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+/* sectionn 2 box */
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 0px 10px;
+    /* padding: 55px;
+    margin: 15px; */
+}
+
+.pa5{
+    color: rgb(61, 14, 14);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.add{
+    border: 2px solid goldenrod;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.add1{
+    border: 2px solid goldenrod;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: goldenrod;
+}
+
+.st5{
+    color: goldenrod;
+}
+
+.price1{
+    color: rgb(61, 14, 14);
+    font-size: 25px;
+}
+.mide{
+    background-color: white;
+    border-radius: 10px;
+    width: 280px;
+    height: 360px;
+    text-align: center;
+}
+
+.all4box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+/* end o sectionn 2 */
+
+/* section 3 */
+
+.fan{
+    text-align: end;
+}
+
+.fan10{
+    display: flex;
+}
+
+.fan11{
+    margin: 80px;
+}
+
+.fan2{
+    position: relative;
+}
+
+.fan4{
+    display: flex;
+    margin-top: 10px;
+}
+
+.fan13{
+    border: 2px dotted gray;
+    border-radius: 50px;
+    padding: 10px ;
+    background-color: white;
+}
+
+.fan14{
+    border: 2px dotted gray;
+    border-radius: 50px;
+    padding: 10px ;
+    background-color: white;
+}
+.fan12{
+    display: flex;
+    justify-content:space-evenly;
+    /* text-align: center; */
+}
+
+.fan3{
+    position: absolute;
+    top: 1300px;
+    left: 350px;
+}
+
+.fan15{
+    border: 0px solid transparent;
+    border-radius: 50px;
+    background-color: goldenrod;
+    color: brown;
+    margin: 15px;
+    padding: 20px 35px 20px;
+    width: fit-content;
+}
+
+
+/* sectionn 4 */
+
+.cup{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cup1{
+    border: 2px solid goldenrod;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 15px 35px;
+    color: rgb(54, 34, 34);
+    width: 95px;
+    text-align: center;
+}
+
+.cup11{
+    border: 3px solid white;
+    background-color: goldenrod;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 15px 35px;
+    color: rgb(54, 34, 34);
+    width: 95px;
+    text-align: center;
+}
+
+.allcup{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 45px 0px 40px;
+}
+
+/* ssection 4 box areaa  */
+
+.mom{
+    border: 2px solid goldenrod;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+/* sectionn 5 */
+
+.mp{
+    margin: 0px 0px 0px 300px ;
+}
+
+.mp1{
+    font-size: 55px;
+}
+.mp3{
+    display: flex;
+    justify-content: end;
+    position:absolute;
+    top: 3140px;
+    right: 90px;
+}
+
+.mp4{
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: goldenrod;
+    color: rgb(58, 45, 45);
+    margin: 15px;
+    padding: 20px 30px 20px 30px;
+    width: fit-content;
+}
+
+/* sectionn 6 */
+
+.dad1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px 0px 90px;
+}
+.dad4{
+    display: flex;
+    /* position: absolute; */
+    
+}
+
+.dad3{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dad2{
+    background-color: goldenrod;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+.dad22{
+    padding: 20px;
+    border: 2px solid goldenrod;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+.dad5{
+    background-color: white;
+    border-radius: 25px;
+    width: 400px;
+    height: 330px;
+    padding: 0px 30px 0px 30px;
+}
+
+.dad6{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.dad7{
+    background-color: rgb(117, 117, 252);
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+
+}
+
+.dad8{
+    color: rgb(75, 38, 38)
+}
+
+.dad9{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+}
+
+ /* secttionnn 7 */
+
+ .dad1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px 0px 90px;
+}
+.dad4{
+    display: flex;
+    
+}
+
+.dad3{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dad2{
+    background-color: goldenrod;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+.dad22{
+    padding: 20px;
+    border: 2px solid goldenrod;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+.girl1{
+    border: 0px white;
+    border-radius: 25px;
+    background-color: white;
+    height: 455px;
+    width: 22%;
+    margin-left: 10px;
+}
+
+.girl4{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.girl3{
+    margin: 15px ;
+    padding-top: 7px;
+}
+
+.girl2 img{
+    border-radius: 25px;
+}
+
+.chefman{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* end of sectionn */
+
+/* sectionn 8 */
+
+.love{
+    border: 0px solid lightpink;
+    border-radius: 25px;
+    background-color: lightpink;
+    height: 500px;
+    width: 90%;
+    margin: auto;
+}
+
+.love2{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.alllove{
+    padding: 80px 0px 50px 80px;
+}
+
+.love3{
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: goldenrod;
+    color: brown;
+    margin: 15px;
+    padding: 10px 35px 10px 35px;
+    width: fit-content;
+}
+
+.love4{
+    border: 2px solid goldenrod;
+    border-radius: 50px;
+    color: brown;padding: 10px 25px 10px;
+    padding: 10px 35px 10px 35px;
+    margin: 15px;
+    background-color: transparent;
+}
+
+/* end of sectionn */
+
+/* sectionn 9 */
+
+.rice{
+    margin: 0px 80px 0px 80px;
+}
+
+.rice1{
+    font-size: 20px;
+}
+
+.rice2{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+}
+
+.rice3{
+    border: 1px solid transparent;
+    background-color: goldenrod;
+    border-radius: 50px;
+    padding: 25px;
+}
+
+.rice4{
+    list-style: none;
+}
+.rice5{
+    border: 0px solid transparent;
+    width: fit-content;
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+
+/* end of last sectionn */
+
+.lastsec{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    line-height: 10px;
+
+}
+
+.social{
+    border: 1px solid brown;
+    border-radius: 50px;
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+
+}
